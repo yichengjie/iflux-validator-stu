@@ -1,3 +1,9 @@
+使用说明：这个项目是我从 github上的‘iflux-validator-demo’
+这个项目原封不动的复制过来的，没有商业目的，这是个人复制过来学习使用，
+后期可能会删除，如果你在github上发现我的项目，请还是查看iflux原著的
+‘iflux-validator-demo’的这个项目吧，谢谢。
+
+
 iflux-validator
 
 思路：
