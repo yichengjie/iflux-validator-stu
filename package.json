@@ -1,0 +1,21 @@
+{
+  "name": "form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --port 3000 --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iflux": "^1.2.14",
+    "immutable": "^3.8.1",
+    "jsx-loader": "^0.13.2",
+    "react": "^0.13.0"
+  },
+  "devDependencies": {
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
