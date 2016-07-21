@@ -49,7 +49,15 @@ var validator = Validator(appStore, {
       required: 'qq is required.',
       qq: 'qq is invalid.'
     }
-  }
+  }/*,
+  list1:{
+    name:{
+      required: true,
+      message:{
+         required: '必填字段.',
+      }
+    }
+  }*/
 });
 
 //在调用isValid之前可以动态的添加自定义规则，for example

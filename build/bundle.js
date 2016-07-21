@@ -72,7 +72,13 @@
 	    var qqError = store.getIn(['fieldErrors', 'qq']);
 
 
-	    console.log('app is rending...');
+	    console.log('app is rending  ,,,,...');
+	    /*var list1 =store.get('list1') ;
+	    var list1html = list1.map(function(item){
+	        var nameError = item.getIn(['fieldErrors','name']) ;
+	        console.info('nameError : ' + nameError) ;
+	        return null ;
+	    }.bind(this)) ;*/
 
 	    return (
 	      React.createElement(Form, {title: 'user register'}, 
@@ -27376,7 +27382,15 @@
 	      required: 'qq is required.',
 	      qq: 'qq is invalid.'
 	    }
-	  }
+	  }/*,
+	  list1:{
+	    name:{
+	      required: true,
+	      message:{
+	         required: '必填字段.',
+	      }
+	    }
+	  }*/
 	});
 
 	//在调用isValid之前可以动态的添加自定义规则，for example
@@ -27443,6 +27457,7 @@
 	  confirm: '',
 	  email: '',
 	  qq: '',
+	  list1:[{name:'yicj'}],
 	  fieldErrors: Immutable.Map({})
 	});
 

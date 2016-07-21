@@ -26,7 +26,13 @@ var App = React.createClass({
     var qqError = store.getIn(['fieldErrors', 'qq']);
 
 
-    console.log('app is rending...');
+    console.log('app is rending  ,,,,...');
+    /*var list1 =store.get('list1') ;
+    var list1html = list1.map(function(item){
+        var nameError = item.getIn(['fieldErrors','name']) ;
+        console.info('nameError : ' + nameError) ;
+        return null ;
+    }.bind(this)) ;*/
 
     return (
       <Form title={'user register'}>

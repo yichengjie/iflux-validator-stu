@@ -10,6 +10,7 @@ var Form = Immutable.Record({
   confirm: '',
   email: '',
   qq: '',
+  list1:[{name:'yicj'}],
   fieldErrors: Immutable.Map({})
 });
 
